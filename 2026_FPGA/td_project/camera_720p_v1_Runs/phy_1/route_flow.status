@@ -1,0 +1,24 @@
+Location         : C:\Users\color.DESKTOP-A8IA2KI\Desktop\qiansai\end\MOTION_V3_RELEASE\td_project\camera_720p_v1_Runs\phy_1
+Running with     : Tang Dynasty Release_2026.1_SP2
+                   Copyright (c) 2012-2026 Anlogic Inc.
+Top Model        : design_top_wrapper
+Device           : PH1P35MDG324
+Speed            : 3
+
+Timing Mode      : final
+Setup            : WNS    13ps  TNS        0ps  NUM_FEPS     0
+Hold             : WNS    20ps  TNS        0ps  NUM_FEPS     0
+
+Flow Statistics  :
+---------------------------------------------------------------------------------------------------
+     command     |  #calls  |  wall time   |  cpu time(s)  |  used memory(mb)  |  peak memory(mb)  
+---------------------------------------------------------------------------------------------------
+      place      |    1     |  3m24s(48%)  |   516(66%)    |       1335        |       1407        
+      route      |    1     |  3m1s(42%)   |   218(28%)    |       2226        |       2226        
+    phys_opt     |    1     |   20s(4%)    |    21(2%)     |       2198        |       2198        
+    fix_hold     |    1     |   17s(4%)    |    16(2%)     |       2204        |       2204        
+    import_db    |    1     |    1s(0%)    |     0(0%)     |        644        |        644        
+  import_device  |    1     |    1s(0%)    |     1(0%)     |        318        |        318        
+---------------------------------------------------------------------------------------------------
+      total      |    6     |     7m4s     |      772      |       2226        |       2226        
+---------------------------------------------------------------------------------------------------

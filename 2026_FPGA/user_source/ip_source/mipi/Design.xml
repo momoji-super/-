@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ipxact:design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ipxact="http://www.accellera.org/XMLSchema/IPXACT/1685-2014" xmlns:anlogic="http" xsi:schemaLocation="http://www.accellera.org/XMLSchema/IPXACT/1685-2014 http://www.accellera.org/XMLSchema/IPXACT/1685-2014/index.xsd">
+    <ipxact:vendor>anlogic.com</ipxact:vendor>
+    <ipxact:library>customized</ipxact:library>
+    <ipxact:name>design_mipi</ipxact:name>
+    <ipxact:version>1.0</ipxact:version>
+    <ipxact:componentInstances>
+        <ipxact:componentInstance>
+            <ipxact:instanceName>MIPIIOF6F1D1P0_mipi_Inst</ipxact:instanceName>
+            <ipxact:componentRef vendor="anlogic.com" library="ip" name="MIPIIOF6F1D1P0" version="1.0"/>
+            <ipxact:configurableElementValues>
+                <ipxact:configurableElementValue referenceId="LVCMOS_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="LVDS_TX_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="LVDS_RX_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MIPI_TX_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="MIPI_RX_EN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="DPHY_LOCATION">&quot;DPHY0&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CHANNEL0_EN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CHANNEL1_EN">1</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CHANNEL2_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CHANNEL3_EN">0</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="HS_S2P_RATIO">&quot;1:8&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CK_HS_EQUALIZER">&quot;0dB&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="L0_HS_EQUALIZER">&quot;0dB&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="L1_HS_EQUALIZER">&quot;0dB&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CK_HS_VGA_GAIN">&quot;12dB&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="L0_HS_VGA_GAIN">&quot;8dB&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="L1_HS_VGA_GAIN">&quot;8dB&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="L0_HS_SLAVE_DESER_CLK_OFFSET">&quot;0ps&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="L1_HS_SLAVE_DESER_CLK_OFFSET">&quot;0ps&quot;</ipxact:configurableElementValue>
+                <ipxact:configurableElementValue referenceId="CLK_CHANNEL_EN_INTERNAL">1</ipxact:configurableElementValue>
+            </ipxact:configurableElementValues>
+        </ipxact:componentInstance>
+    </ipxact:componentInstances>
+    <ipxact:adHocConnections>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_clk_pad_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_clk_pad_p"/>
+                <ipxact:externalPortReference portRef="io_clk_pad_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_clk_pad_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_clk_pad_n"/>
+                <ipxact:externalPortReference portRef="io_clk_pad_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad0_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad0_p"/>
+                <ipxact:externalPortReference portRef="io_data_pad0_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad0_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad0_n"/>
+                <ipxact:externalPortReference portRef="io_data_pad0_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad1_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad1_p"/>
+                <ipxact:externalPortReference portRef="io_data_pad1_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad1_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad1_n"/>
+                <ipxact:externalPortReference portRef="io_data_pad1_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad2_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad2_p"/>
+                <ipxact:externalPortReference portRef="io_data_pad2_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad2_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad2_n"/>
+                <ipxact:externalPortReference portRef="io_data_pad2_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad3_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad3_p"/>
+                <ipxact:externalPortReference portRef="io_data_pad3_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>io_data_pad3_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="io_data_pad3_n"/>
+                <ipxact:externalPortReference portRef="io_data_pad3_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_fabric_div4_8_clk</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_fabric_div4_8_clk"/>
+                <ipxact:externalPortReference portRef="o_fabric_div4_8_clk"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_phy_rst_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_phy_rst_n"/>
+                <ipxact:externalPortReference portRef="i_phy_rst_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_lp_tx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_lp_tx_en"/>
+                <ipxact:externalPortReference portRef="i_l0_lp_tx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_lp_tx_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_lp_tx_p"/>
+                <ipxact:externalPortReference portRef="i_l0_lp_tx_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_lp_tx_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_lp_tx_n"/>
+                <ipxact:externalPortReference portRef="i_l0_lp_tx_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l0_lp_rx_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l0_lp_rx_p"/>
+                <ipxact:externalPortReference portRef="o_l0_lp_rx_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l0_lp_rx_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l0_lp_rx_n"/>
+                <ipxact:externalPortReference portRef="o_l0_lp_rx_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_lp_tx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_lp_tx_en"/>
+                <ipxact:externalPortReference portRef="i_l1_lp_tx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_lp_tx_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_lp_tx_p"/>
+                <ipxact:externalPortReference portRef="i_l1_lp_tx_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_lp_tx_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_lp_tx_n"/>
+                <ipxact:externalPortReference portRef="i_l1_lp_tx_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l1_lp_rx_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l1_lp_rx_p"/>
+                <ipxact:externalPortReference portRef="o_l1_lp_rx_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l1_lp_rx_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l1_lp_rx_n"/>
+                <ipxact:externalPortReference portRef="o_l1_lp_rx_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_ck_lp_rx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_ck_lp_rx_en"/>
+                <ipxact:externalPortReference portRef="i_ck_lp_rx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_ck_lp_rx_p</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_ck_lp_rx_p"/>
+                <ipxact:externalPortReference portRef="o_ck_lp_rx_p"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_ck_lp_rx_n</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_ck_lp_rx_n"/>
+                <ipxact:externalPortReference portRef="o_ck_lp_rx_n"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_ck_hs_rx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_ck_hs_rx_en"/>
+                <ipxact:externalPortReference portRef="i_ck_hs_rx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_ck_hs_terminator_sel</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_ck_hs_terminator_sel"/>
+                <ipxact:externalPortReference portRef="i_ck_hs_terminator_sel"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_ck_hs_idelay_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_ck_hs_idelay_en"/>
+                <ipxact:externalPortReference portRef="i_ck_hs_idelay_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_ck_hs_idelay_value</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_ck_hs_idelay_value"/>
+                <ipxact:externalPortReference portRef="i_ck_hs_idelay_value"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_lp_rx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_lp_rx_en"/>
+                <ipxact:externalPortReference portRef="i_l0_lp_rx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_hs_rx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_hs_rx_en"/>
+                <ipxact:externalPortReference portRef="i_l0_hs_rx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_hs_terminator_sel</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_hs_terminator_sel"/>
+                <ipxact:externalPortReference portRef="i_l0_hs_terminator_sel"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_hs_slave_deser_clk_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_hs_slave_deser_clk_en"/>
+                <ipxact:externalPortReference portRef="i_l0_hs_slave_deser_clk_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_hs_idelay_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_hs_idelay_en"/>
+                <ipxact:externalPortReference portRef="i_l0_hs_idelay_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l0_hs_idelay_value</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l0_hs_idelay_value"/>
+                <ipxact:externalPortReference portRef="i_l0_hs_idelay_value"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l0_hs_rx_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l0_hs_rx_data"/>
+                <ipxact:externalPortReference portRef="o_l0_hs_rx_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l0_hs_rx_slave_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l0_hs_rx_slave_data"/>
+                <ipxact:externalPortReference portRef="o_l0_hs_rx_slave_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_lp_rx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_lp_rx_en"/>
+                <ipxact:externalPortReference portRef="i_l1_lp_rx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_hs_rx_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_hs_rx_en"/>
+                <ipxact:externalPortReference portRef="i_l1_hs_rx_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_hs_terminator_sel</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_hs_terminator_sel"/>
+                <ipxact:externalPortReference portRef="i_l1_hs_terminator_sel"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_hs_slave_deser_clk_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_hs_slave_deser_clk_en"/>
+                <ipxact:externalPortReference portRef="i_l1_hs_slave_deser_clk_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_hs_idelay_en</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_hs_idelay_en"/>
+                <ipxact:externalPortReference portRef="i_l1_hs_idelay_en"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>i_l1_hs_idelay_value</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="i_l1_hs_idelay_value"/>
+                <ipxact:externalPortReference portRef="i_l1_hs_idelay_value"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l1_hs_rx_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l1_hs_rx_data"/>
+                <ipxact:externalPortReference portRef="o_l1_hs_rx_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+        <ipxact:adHocConnection>
+            <ipxact:name>o_l1_hs_rx_slave_data</ipxact:name>
+            <ipxact:portReferences>
+                <ipxact:internalPortReference componentRef="MIPIIOF6F1D1P0_mipi_Inst" portRef="o_l1_hs_rx_slave_data"/>
+                <ipxact:externalPortReference portRef="o_l1_hs_rx_slave_data"/>
+            </ipxact:portReferences>
+        </ipxact:adHocConnection>
+    </ipxact:adHocConnections>
+    <ipxact:vendorExtensions>
+        <anlogic:device>PH1P35MDG324</anlogic:device>
+        <anlogic:speed>-3</anlogic:speed>
+        <anlogic:displayname>MIPI IO</anlogic:displayname>
+        <anlogic:ipGenVersion value="193873 2026/03/31">1.0</anlogic:ipGenVersion>
+    </ipxact:vendorExtensions>
+</ipxact:design>

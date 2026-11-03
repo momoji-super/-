@@ -1,0 +1,66 @@
+Created by          : Tang Dynasty Release_2026.1_SP2
+                    : Copyright (c) 2012-2026 Anlogic Inc.
+Generated           : Tue Nov  3 19:05:40 2026
+
+Top Model           : design_top_wrapper
+Device              : PH1P35MDG324
+Speed               : 3
+STA coverage        : 95.95%
+Constraint File     : C:/Users/color.DESKTOP-A8IA2KI/Desktop/qiansai/end/MOTION_V3_RELEASE/td_project/camera_to_dsi_display.sdc;
+Confidence          : Routed
+Check Corner        : Both (Slow and Fast)
+CRPR Enabled        : Yes
+Report Scheme       : 10 end point(s) per path group, 1 path(s) per end point
+
+
+Check Status
+-------------
+
+Corner   | Max      Min     
+------------------------------------
+Slow     | yes      yes     
+Fast     | yes      yes     
+
+MCP/SMD Summary
+--------------------
+
+		Max Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+		        18            0            0           18   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 8.588
+		        18            0            0           18   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 8.588
+
+		Min Check
+		--------------------
+		     Total    Dominated     Shadowed      Ignored   Constraint
+
+Status of timing exceptions
+--------------------------------------------------
+
+MCP/SMD Details
+--------------------
+
+
+Constraint     :   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 8.588
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           18
+Dominated      :            0,          0.0%
+Ignored        :           18,        100.0%
+               :           18, by set_clock_groups
+
+
+Constraint     :   set_max_delay -from [get_regs -nowarn {*/primary_addr_gray_reg[*]}] -to [get_regs -nowarn {*/sync_r1[*]}] -datapath_only 8.588
+Check Type     :   Max
+--------------------------------------------------------------------------------
+Total Paths    :           18
+Dominated      :            0,          0.0%
+Ignored        :           18,        100.0%
+               :           18, by set_clock_groups
+
+
+Details on timing exceptions
+--------------------------------------------------
+
+
+

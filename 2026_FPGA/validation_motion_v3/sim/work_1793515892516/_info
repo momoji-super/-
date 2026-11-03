@@ -1,0 +1,501 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/color.DESKTOP-A8IA2KI/Desktop/qiansai/end/MOTION_V3_RELEASE
+T_opt
+!s110 1793515903
+VWR;S9?GV^fSVfBTDTTcNn2
+04 16 4 work hand_pipeline_tb fast 0
+=1-00ff9cbfe9ed-6ae6e17f-265-8df8
+Z1 o-quiet -auto_acc_if_foreign -work validation_motion_v3/sim/work_1793515892516
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+R0
+T_opt1
+!s110 1793515908
+VBR]fXWogULbjC1Gz3V6QT2
+04 24 4 work hdmi_mixer_osd_switch_tb fast 0
+=1-00ff9cbfe9ed-6ae6e184-96-b148
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1793515911
+V60R8T_fd7MZOR=96mG8G13
+04 17 4 work hdmi_mixer_age_tb fast 0
+=1-00ff9cbfe9ed-6ae6e186-3af-43f4
+R1
+R2
+n@_opt2
+R3
+vgimbal_red_tracker
+Z4 !s110 1793515892
+!i10b 1
+!s100 D=a=h?5g>n6H0:AjozKGl1
+IPYW1mkDdMYdg3Ra`GWhA83
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1793102636
+8user_source/hdl_source/gimbal_red_tracker.v
+Fuser_source/hdl_source/gimbal_red_tracker.v
+L0 1
+Z6 OL;L;10.5;63
+r1
+!s85 0
+31
+Z7 !s108 1793515892.000000
+Z8 !s107 user_source/hdl_source/sim/red_tracking_chain_tb.v|user_source/hdl_source/gimbal_red_tracker.v|user_source/hdl_source/isp/sim/red_laser_peak_tb.v|user_source/hdl_source/isp/sim/target_pipeline_equivalence_tb.v|validation_motion_v3/target_detect_track_before.v|user_source/hdl_source/isp/target_detect_track.v|user_source/hdl_source/sim/hdmi_mixer_age_tb.v|user_source/hdl_source/sim/hdmi_mixer_osd_switch_tb.v|user_source/hdl_source/hdmi_mixer.v|user_source/hdl_source/hand_gesture/sim/hand_pipeline_tb.v|user_source/hdl_source/hand_gesture/sim/hand_mask_frontend_tb.v|user_source/hdl_source/hand_gesture/sim/hand_temporal_vote_tb.v|user_source/hdl_source/isp/sim/motion_stability_tb.v|user_source/hdl_source/hand_gesture/hand_temporal_vote.v|user_source/hdl_source/hand_gesture/hand_reset_sync.v|user_source/hdl_source/hand_gesture/hand_pipeline.v|user_source/hdl_source/hand_gesture/hand_mask_frontend.v|user_source/hdl_source/hand_gesture/hand_mask_buffer.v|user_source/hdl_source/hand_gesture/hand_frame_ram.v|user_source/hdl_source/hand_gesture/hand_distance_circle.v|user_source/hdl_source/hand_gesture/hand_angle_lut.v|
+Z9 !s90 -work|validation_motion_v3/sim/work_1793515892516|user_source/hdl_source/hand_gesture/hand_angle_lut.v|user_source/hdl_source/hand_gesture/hand_distance_circle.v|user_source/hdl_source/hand_gesture/hand_frame_ram.v|user_source/hdl_source/hand_gesture/hand_mask_buffer.v|user_source/hdl_source/hand_gesture/hand_mask_frontend.v|user_source/hdl_source/hand_gesture/hand_pipeline.v|user_source/hdl_source/hand_gesture/hand_reset_sync.v|user_source/hdl_source/hand_gesture/hand_temporal_vote.v|user_source/hdl_source/isp/sim/motion_stability_tb.v|user_source/hdl_source/hand_gesture/sim/hand_temporal_vote_tb.v|user_source/hdl_source/hand_gesture/sim/hand_mask_frontend_tb.v|user_source/hdl_source/hand_gesture/sim/hand_pipeline_tb.v|user_source/hdl_source/hdmi_mixer.v|user_source/hdl_source/sim/hdmi_mixer_osd_switch_tb.v|user_source/hdl_source/sim/hdmi_mixer_age_tb.v|user_source/hdl_source/isp/target_detect_track.v|validation_motion_v3/target_detect_track_before.v|user_source/hdl_source/isp/sim/target_pipeline_equivalence_tb.v|user_source/hdl_source/isp/sim/red_laser_peak_tb.v|user_source/hdl_source/gimbal_red_tracker.v|user_source/hdl_source/sim/red_tracking_chain_tb.v|
+!i113 0
+Z10 o-work validation_motion_v3/sim/work_1793515892516 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vhand_angle_lut
+R4
+!i10b 1
+!s100 SKHeC^7@i6i3G9Ek?iG:41
+IjFHFX`^IYi7Bog5L=nJhS1
+R5
+R0
+Z11 w1791995720
+8user_source/hdl_source/hand_gesture/hand_angle_lut.v
+Fuser_source/hdl_source/hand_gesture/hand_angle_lut.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_distance_circle
+R4
+!i10b 1
+!s100 mZ:OzM1cb]`X]GYRS?F:90
+I]Di1MPPZ3LeKIcF87chfF3
+R5
+R0
+w1793345238
+8user_source/hdl_source/hand_gesture/hand_distance_circle.v
+Fuser_source/hdl_source/hand_gesture/hand_distance_circle.v
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_frame_ram
+R4
+!i10b 1
+!s100 [JWIfkG?i`MiJ?oS41W^M1
+Ia`05a>FhzVjlIik6Y3DUV2
+R5
+R0
+w1793323642
+8user_source/hdl_source/hand_gesture/hand_frame_ram.v
+Fuser_source/hdl_source/hand_gesture/hand_frame_ram.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_mask_buffer
+R4
+!i10b 1
+!s100 l>n_[XImnn2zQzzzZ>ES51
+ImKnZI818>F>>U6jnkOM>Z1
+R5
+R0
+R11
+8user_source/hdl_source/hand_gesture/hand_mask_buffer.v
+Fuser_source/hdl_source/hand_gesture/hand_mask_buffer.v
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_mask_frontend
+R4
+!i10b 1
+!s100 e`EB1PQbC3a_=iBN;=FfX3
+I_jkAQCjc5<;bKM]=KkanT0
+R5
+R0
+w1793282238
+8user_source/hdl_source/hand_gesture/hand_mask_frontend.v
+Fuser_source/hdl_source/hand_gesture/hand_mask_frontend.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_mask_frontend_tb
+R4
+!i10b 1
+!s100 TWd=g5zhk<Y@NSeUUU05A1
+IQB`T6FdKUAziZ9MR@<bB13
+R5
+R0
+w1793282912
+8user_source/hdl_source/hand_gesture/sim/hand_mask_frontend_tb.v
+Fuser_source/hdl_source/hand_gesture/sim/hand_mask_frontend_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_pipeline
+R4
+!i10b 1
+!s100 VX1mC:zJUg0m>f?7zk=8:1
+IToV[zGB`bC=?P>TNg]SB60
+R5
+R0
+R11
+8user_source/hdl_source/hand_gesture/hand_pipeline.v
+Fuser_source/hdl_source/hand_gesture/hand_pipeline.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_pipeline_tb
+R4
+!i10b 1
+!s100 HgDcPod5H:D<=U5A6Q2hG1
+I[AC1ZiFcOM_Q2ka7W9bKC0
+R5
+R0
+w1793345786
+8user_source/hdl_source/hand_gesture/sim/hand_pipeline_tb.v
+Fuser_source/hdl_source/hand_gesture/sim/hand_pipeline_tb.v
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_reset_sync
+R4
+!i10b 1
+!s100 Cfc>hK`L_cAn]N8k0RVz82
+Inj`H?_geTHm]2h78[egIF2
+R5
+R0
+R11
+8user_source/hdl_source/hand_gesture/hand_reset_sync.v
+Fuser_source/hdl_source/hand_gesture/hand_reset_sync.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_temporal_vote
+R4
+!i10b 1
+!s100 4M2n<I;D@WeVkc`Sf4]841
+II`4ld=T[T]J1]?MDMz4df0
+R5
+R0
+w1793344906
+8user_source/hdl_source/hand_gesture/hand_temporal_vote.v
+Fuser_source/hdl_source/hand_gesture/hand_temporal_vote.v
+L0 4
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhand_temporal_vote_tb
+R4
+!i10b 1
+!s100 2[ITo[Ei]CUPmkS0k^mbO3
+IiPEi;nNE?o1MkE;TVcGhF1
+R5
+R0
+w1793344960
+8user_source/hdl_source/hand_gesture/sim/hand_temporal_vote_tb.v
+Fuser_source/hdl_source/hand_gesture/sim/hand_temporal_vote_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhdmi_mixer
+R4
+!i10b 1
+!s100 DQjLkmC8?3_^Jz;VUKVQ50
+IK6DXk;NIi4DQjN49zME982
+R5
+R0
+w1793515743
+8user_source/hdl_source/hdmi_mixer.v
+Fuser_source/hdl_source/hdmi_mixer.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhdmi_mixer_age_tb
+R4
+!i10b 1
+!s100 0A`mgd`3Z9JW=dmWJ1P?K1
+IKgM3?lghXj2iPQDV?>P1`3
+R5
+R0
+w1793515885
+8user_source/hdl_source/sim/hdmi_mixer_age_tb.v
+Fuser_source/hdl_source/sim/hdmi_mixer_age_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vhdmi_mixer_osd_switch_tb
+R4
+!i10b 1
+!s100 MgQ=oQkWkWb[^QF@IGVi03
+ILiaDf7j[^C[fE1ki57aKl0
+R5
+R0
+w1793515801
+8user_source/hdl_source/sim/hdmi_mixer_osd_switch_tb.v
+Fuser_source/hdl_source/sim/hdmi_mixer_osd_switch_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vmotion_grid_stable
+R4
+!i10b 1
+!s100 RUS>GkM_een8@GJF?[h2E3
+Id1C^bla[@DEA2J;kchWV=1
+R5
+R0
+Z12 w1793348016
+Z13 8user_source/hdl_source/isp/target_detect_track.v
+Z14 Fuser_source/hdl_source/isp/target_detect_track.v
+L0 282
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vmotion_stability_tb
+R4
+!i10b 1
+!s100 F<47:2DTNk5?LUMEFDm>[2
+I`EQEmU?LPJlHezJ4OCjje2
+R5
+R0
+w1793347986
+8user_source/hdl_source/isp/sim/motion_stability_tb.v
+Fuser_source/hdl_source/isp/sim/motion_stability_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vred_laser_peak_tb
+R4
+!i10b 1
+!s100 `]53k]zgHIOLSON73?Ob]1
+Im8mYD`9e2MESn2oHe0>AT2
+R5
+R0
+w1792939120
+8user_source/hdl_source/isp/sim/red_laser_peak_tb.v
+Fuser_source/hdl_source/isp/sim/red_laser_peak_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vred_tracking_chain_tb
+R4
+!i10b 1
+!s100 44[3l<_0g_@dB_dIcW[lj3
+I:0c3`cPE@XG_ZkIEWj8:<2
+R5
+R0
+w1793347596
+8user_source/hdl_source/sim/red_tracking_chain_tb.v
+Fuser_source/hdl_source/sim/red_tracking_chain_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vtarget_detect_track
+R4
+!i10b 1
+!s100 UIZS95=j5A0K_RPPP[cYZ3
+I8Nj@1H_^EdJOR::df3AC10
+R5
+R0
+R12
+R13
+R14
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vtarget_detect_track_before
+R4
+!i10b 1
+!s100 =gMSo<3OSPbP;XZ]jiWhB1
+Ie3lkK6B@oKh57l:Ie61h]3
+R5
+R0
+Z15 w1793347224
+8validation_motion_v3/target_detect_track_before.v
+Fvalidation_motion_v3/target_detect_track_before.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2
+vtarget_pipeline_equivalence_tb
+R4
+!i10b 1
+!s100 OjeK@KN9`[NN2X<ZEie2W3
+Ilc_CEImlV36A`6VbhB0U@1
+R5
+R0
+R15
+8user_source/hdl_source/isp/sim/target_pipeline_equivalence_tb.v
+Fuser_source/hdl_source/isp/sim/target_pipeline_equivalence_tb.v
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R2

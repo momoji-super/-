@@ -1,0 +1,10 @@
+PASS motion_stability_tb
+PASS hand_temporal_vote_tb
+PASS hand_mask_frontend_tb
+PASS hand_pipeline_tb
+PASS hdmi_mixer_osd_switch_tb
+PASS hdmi_mixer_age_tb
+PASS target_pipeline_equivalence_tb
+PASS red_laser_peak_tb
+PASS red_tracking_chain_tb
+ALL_9_REGRESSIONS_PASS

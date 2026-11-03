@@ -1,0 +1,55 @@
+# vsim -c -onfinish exit -lib validation_motion_v3/sim/work_1793515954604 motion_stability_tb -l validation_motion_v3/sim/motion_stability_tb.log -do "run -all; quit -f" 
+# Start time: 14:52:35 on Nov 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.motion_stability_tb(fast)
+# run -all
+# motion mode=0 left=0 level=0 published=0 count=0 box=0,0..0,0
+# motion mode=0 left=0 level=0 published=0 count=0 box=0,0..0,0
+# motion mode=4 left=0 level=0 published=0 count=0 box=0,0..0,0
+# motion mode=0 left=0 level=0 published=0 count=0 box=0,0..0,0
+# motion mode=1 left=0 level=200 published=0 count=0 box=0,0..0,0
+# motion mode=1 left=0 level=40 published=0 count=0 box=0,0..0,0
+# motion mode=1 left=0 level=200 published=0 count=0 box=0,0..0,0
+# motion mode=1 left=0 level=40 published=0 count=0 box=0,0..0,0
+# motion mode=2 left=0 level=200 published=0 count=0 box=0,0..0,0
+# motion mode=0 left=0 level=0 published=0 count=0 box=0,0..0,0
+# motion mode=3 left=32 level=200 published=0 count=0 box=0,0..0,0
+# motion mode=3 left=32 level=200 published=1 count=15 box=32,32..95,95
+# motion mode=3 left=32 level=120 published=1 count=0 box=32,32..95,95
+# motion mode=3 left=32 level=120 published=1 count=15 box=32,32..95,95
+# motion mode=3 left=48 level=200 published=1 count=0 box=32,32..95,95
+# motion mode=3 left=48 level=200 published=1 count=19 box=32,32..103,95
+# motion mode=3 left=176 level=120 published=1 count=0 box=32,32..103,95
+# motion mode=3 left=176 level=200 published=1 count=30 box=40,32..239,95
+# motion mode=3 left=176 level=200 published=1 count=15 box=176,32..239,95
+# motion mode=3 left=176 level=200 published=1 count=0 box=176,32..239,95
+# motion mode=3 left=176 level=200 published=1 count=0 box=176,32..239,95
+# motion mode=3 left=176 level=200 published=0 count=0 box=176,32..239,95
+# motion mode=0 left=0 level=0 published=0 count=0 box=176,32..239,95
+# motion mode=0 left=0 level=0 published=1 count=15 box=176,32..239,95
+# motion mode=0 left=0 level=0 published=1 count=0 box=176,32..239,95
+# motion mode=0 left=0 level=0 published=1 count=0 box=176,32..239,95
+# motion mode=3 left=32 level=200 published=0 count=0 box=176,32..239,95
+# motion mode=3 left=48 level=200 published=1 count=15 box=32,32..95,95
+# motion mode=3 left=64 level=200 published=1 count=6 box=32,32..103,95
+# motion mode=3 left=80 level=200 published=1 count=6 box=40,32..115,95
+# motion mode=3 left=96 level=200 published=1 count=6 box=52,32..129,95
+# motion mode=3 left=112 level=200 published=1 count=6 box=66,32..144,95
+# PASS motion_stability_tb: startup, noise, flash, acquisition, smoothing, fast movement, hold and expiry
+# ** Note: $finish    : user_source/hdl_source/isp/sim/motion_stability_tb.v(81)
+#    Time: 5659250 ns  Iteration: 1  Instance: /motion_stability_tb
+# End time: 14:52:38 on Nov 01,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

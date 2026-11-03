@@ -1,0 +1,122 @@
+LVCMOS_EN : 0 : U : En :  :  : 
+LVDS_TX_EN : 0 : U : En :  :  : 
+LVDS_RX_EN : 0 : U : En :  :  : 
+MIPI_TX_EN : 0 : U : En :  :  : 
+MIPI_RX_EN : 1 : U : En :  :  : 
+DPHY_LOCATION : DPHY0 : U : En : DPHY0;;DPHY1 :  : 
+CK_RX_IOSTANDARD : LVCMOS18 : U : Dis : LVCMOS12;;LVCMOS18 :  : 
+L0_RX_IOSTANDARD : LVCMOS18 : U : Dis : LVCMOS12;;LVCMOS18 :  : 
+L1_RX_IOSTANDARD : LVCMOS18 : U : Dis : LVCMOS12;;LVCMOS18 :  : 
+L2_RX_IOSTANDARD : LVCMOS18 : U : Dis : LVCMOS12;;LVCMOS18 :  : 
+L3_RX_IOSTANDARD : LVCMOS18 : U : Dis : LVCMOS12;;LVCMOS18 :  : 
+CK_TX_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L0_TX_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L1_TX_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L2_TX_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L3_TX_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+CK_TX_DRIVESTRENGTH : 4mA : U : Dis : 4mA;;8mA;;12mA;;16mA :  : 
+L0_TX_DRIVESTRENGTH : 4mA : U : Dis : 4mA;;8mA;;12mA;;16mA :  : 
+L1_TX_DRIVESTRENGTH : 4mA : U : Dis : 4mA;;8mA;;12mA;;16mA :  : 
+L2_TX_DRIVESTRENGTH : 4mA : U : Dis : 4mA;;8mA;;12mA;;16mA :  : 
+L3_TX_DRIVESTRENGTH : 4mA : U : Dis : 4mA;;8mA;;12mA;;16mA :  : 
+CLK_CHANNEL_EN : 1 : U : Dis :  :  : 
+CHANNEL0_EN : 1 : U : En :  :  : 
+CHANNEL1_EN : 1 : U : En :  :  : 
+CHANNEL2_EN : 0 : U : En :  :  : 
+CHANNEL3_EN : 0 : U : En :  :  : 
+P2S_RATIO : 8:1 : U : Dis : 8:1;;16:1 :  : 
+LVDS_OUTPUT_VCM : 1.2v : U : Dis : 0.7v;;0.75v;;0.8v;;0.9v;;1v;;1.1v;;1.2v;;1.3v :  : 
+LVDS_EXTRA_VOD_GAIN : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+LVDS_OVER_CURRENT_PROTECT : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+CK_DE_EMPHASIS : 0dB : U : Dis : 0dB;;-5dB :  : 
+L0_DE_EMPHASIS : 0dB : U : Dis : 0dB;;-5dB :  : 
+L1_DE_EMPHASIS : 0dB : U : Dis : 0dB;;-5dB :  : 
+L2_DE_EMPHASIS : 0dB : U : Dis : 0dB;;-5dB :  : 
+L3_DE_EMPHASIS : 0dB : U : Dis : 0dB;;-5dB :  : 
+CK_LVDS_OUTPUT_VOD : 3.5mA : U : Dis : 2.5mA;;3mA;;3.5mA;;4mA;;4.5mA;;5mA;;5.5mA;;6mA :  : 
+L0_LVDS_OUTPUT_VOD : 3.5mA : U : Dis : 2.5mA;;3mA;;3.5mA;;4mA;;4.5mA;;5mA;;5.5mA;;6mA :  : 
+L1_LVDS_OUTPUT_VOD : 3.5mA : U : Dis : 2.5mA;;3mA;;3.5mA;;4mA;;4.5mA;;5mA;;5.5mA;;6mA :  : 
+L2_LVDS_OUTPUT_VOD : 3.5mA : U : Dis : 2.5mA;;3mA;;3.5mA;;4mA;;4.5mA;;5mA;;5.5mA;;6mA :  : 
+L3_LVDS_OUTPUT_VOD : 3.5mA : U : Dis : 2.5mA;;3mA;;3.5mA;;4mA;;4.5mA;;5mA;;5.5mA;;6mA :  : 
+S2P_RATIO : 1:8 : U : Dis : 1:8;;1:16 :  : 
+SAMPLE_CLOCK_SEL : CLK_LANE : U : Dis : CLK_LANE;;PLL :  : 
+CK_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L0_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L1_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L2_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L3_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+CK_VGA_GAIN : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L0_VGA_GAIN : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L1_VGA_GAIN : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L2_VGA_GAIN : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L3_VGA_GAIN : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+CK_IDELAY_ENABLE : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L0_IDELAY_ENABLE : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L1_IDELAY_ENABLE : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L2_IDELAY_ENABLE : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L3_IDELAY_ENABLE : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+CK_TERMINATOR : AC100ohm : U : Dis : NONE;;DC100ohm;;AC100ohm :  : 
+L0_TERMINATOR : AC100ohm : U : Dis : NONE;;DC100ohm;;AC100ohm :  : 
+L1_TERMINATOR : AC100ohm : U : Dis : NONE;;DC100ohm;;AC100ohm :  : 
+L2_TERMINATOR : AC100ohm : U : Dis : NONE;;DC100ohm;;AC100ohm :  : 
+L3_TERMINATOR : AC100ohm : U : Dis : NONE;;DC100ohm;;AC100ohm :  : 
+L0_SLAVE_DESER_CLK_OFFSET : 16ps : U : Dis : 0ps;;16ps;;32ps;;48ps :  : 
+L1_SLAVE_DESER_CLK_OFFSET : 16ps : U : Dis : 0ps;;16ps;;32ps;;48ps :  : 
+L2_SLAVE_DESER_CLK_OFFSET : 16ps : U : Dis : 0ps;;16ps;;32ps;;48ps :  : 
+L3_SLAVE_DESER_CLK_OFFSET : 16ps : U : Dis : 0ps;;16ps;;32ps;;48ps :  : 
+HS_OUTPUT_IMPEDANCE : 50ohm : U : Dis : 41ohm;;44ohm;;47ohm;;50ohm;;54ohm;;58ohm;;64ohm;;70ohm :  : 
+HS_P2S_RATIO : 8:1 : U : Dis : 8:1;;16:1 :  : 
+HS_OUTPUT_VOD : 212.5mV : U : Dis : 175mV;;187.5mV;;200mV;;212.5mV;;225mV;;237.5mV;;250mV :  : 
+CK_LP_OUTPUT_IMPEDANCE : 110ohm : U : Dis : 110ohm;;130ohm;;160ohm;;200ohm :  : 
+L0_LP_OUTPUT_IMPEDANCE : 110ohm : U : Dis : 110ohm;;130ohm;;160ohm;;200ohm :  : 
+L1_LP_OUTPUT_IMPEDANCE : 110ohm : U : Dis : 110ohm;;130ohm;;160ohm;;200ohm :  : 
+L2_LP_OUTPUT_IMPEDANCE : 110ohm : U : Dis : 110ohm;;130ohm;;160ohm;;200ohm :  : 
+L3_LP_OUTPUT_IMPEDANCE : 110ohm : U : Dis : 110ohm;;130ohm;;160ohm;;200ohm :  : 
+CK_LP_OUTPUT_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L0_LP_OUTPUT_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L1_LP_OUTPUT_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L2_LP_OUTPUT_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+L3_LP_OUTPUT_SLEW_RATE : SLOW : U : Dis : SLOW;;MEDIUM;;FAST :  : 
+CK_HS_DE_EMPHASIS : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;7dB :  : 
+L0_HS_DE_EMPHASIS : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;7dB :  : 
+L1_HS_DE_EMPHASIS : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;7dB :  : 
+L2_HS_DE_EMPHASIS : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;7dB :  : 
+L3_HS_DE_EMPHASIS : 0dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;7dB :  : 
+HS_S2P_RATIO : 1:8 : U : En : 1:8;;1:16 :  : 
+CK_HS_EQUALIZER : 0dB : U : En : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L0_HS_EQUALIZER : 0dB : U : En : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L1_HS_EQUALIZER : 0dB : U : En : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L2_HS_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+L3_HS_EQUALIZER : 0dB : U : Dis : 0dB;;1dB;;2dB;;3dB;;4dB;;5dB;;6dB;;7dB :  : 
+CK_HS_VGA_GAIN : 12dB : U : En : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L0_HS_VGA_GAIN : 8dB : U : En : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L1_HS_VGA_GAIN : 8dB : U : En : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L2_HS_VGA_GAIN : 12dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L3_HS_VGA_GAIN : 12dB : U : Dis : 0dB;;1.5dB;;3dB;;4.5dB;;6dB;;8dB;;10dB;;12dB :  : 
+L0_HS_SLAVE_DESER_CLK_OFFSET : 0ps : U : En : 0ps;;16ps;;32ps;;48ps :  : 
+L1_HS_SLAVE_DESER_CLK_OFFSET : 0ps : U : En : 0ps;;16ps;;32ps;;48ps :  : 
+L2_HS_SLAVE_DESER_CLK_OFFSET : 16ps : U : Dis : 0ps;;16ps;;32ps;;48ps :  : 
+L3_HS_SLAVE_DESER_CLK_OFFSET : 16ps : U : Dis : 0ps;;16ps;;32ps;;48ps :  : 
+CLK_CHANNEL_EN_INTERNAL : 1 : G : En :  :  : 
+CK_VCM_COMPENSATION : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L0_VCM_COMPENSATION : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L1_VCM_COMPENSATION : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L2_VCM_COMPENSATION : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+L3_VCM_COMPENSATION : ENABLE : U : Dis : ENABLE;;DISABLE :  : 
+CK_DUTY_COMPENSATION : 0% : U : Dis : 0%;;1%;;2%;;3%;;4%;;5%;;6%;;7% :  : 
+L0_DUTY_COMPENSATION : 0% : U : Dis : 0%;;1%;;2%;;3%;;4%;;5%;;6%;;7% :  : 
+L1_DUTY_COMPENSATION : 0% : U : Dis : 0%;;1%;;2%;;3%;;4%;;5%;;6%;;7% :  : 
+L2_DUTY_COMPENSATION : 0% : U : Dis : 0%;;1%;;2%;;3%;;4%;;5%;;6%;;7% :  : 
+L3_DUTY_COMPENSATION : 0% : U : Dis : 0%;;1%;;2%;;3%;;4%;;5%;;6%;;7% :  : 
+CK_DUTY_COMPENSATION_POLARITY : DECREASE : U : Dis : DECREASE;;INCREASE :  : 
+L0_DUTY_COMPENSATION_POLARITY : DECREASE : U : Dis : DECREASE;;INCREASE :  : 
+L1_DUTY_COMPENSATION_POLARITY : DECREASE : U : Dis : DECREASE;;INCREASE :  : 
+L2_DUTY_COMPENSATION_POLARITY : DECREASE : U : Dis : DECREASE;;INCREASE :  : 
+L3_DUTY_COMPENSATION_POLARITY : DECREASE : U : Dis : DECREASE;;INCREASE :  : 
+CK_INTERNAL_AC_CAP_ENABLE : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+L0_INTERNAL_AC_CAP_ENABLE : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+L1_INTERNAL_AC_CAP_ENABLE : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+L2_INTERNAL_AC_CAP_ENABLE : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+L3_INTERNAL_AC_CAP_ENABLE : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+LVDS_TX_VCO_BYPASS : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
+MIPI_TX_VCO_BYPASS : DISABLE : U : Dis : ENABLE;;DISABLE :  : 
